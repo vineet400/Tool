@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore a wide range of image and PDF tools to simplify your workflow. Convert, compress, edit, and more with our easy-to-use tools.">
+  <meta name="keywords" content="image tools, PDF tools, online tools, image converter, PDF compressor, image editor">
+  <meta name="author" content="Your Website Name">
+  <title>Your Website Name - Image & PDF Tools</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      font-weight: 600;
+      text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin-top: 20px;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #388E3C;
+      transform: translateY(-3px);
+    }
+
+    .tool-categories, .featured-tools {
+      margin: 40px 0;
+    }
+
+    .tool-categories h2, .featured-tools h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-grid, .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .category-card, .tool-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .category-card:hover, .tool-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .category-card img, .tool-card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+
+    .category-card h3, .tool-card h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      color: white;
+    }
+
+    .category-card p, .tool-card p {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .category-grid, .tool-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Your Website Name</h1>
+    <p>Explore a wide range of image and PDF tools to simplify your workflow.</p>
+    <a href="#tool-categories" class="btn">Get Started</a>
+  </header>
+
+  <div class="container">
+    <!-- Tool Categories Section -->
+    <section class="tool-categories" id="tool-categories">
+      <h2>Tool Categories</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <img src="https://via.placeholder.com/80" alt="Image Tools">
+          <h3>Image Tools</h3>
+          <p>Convert, compress, and edit images with ease.</p>
+        </div>
+        <div class="category-card">
+          <img src="https://via.placeholder.com/80" alt="PDF Tools">
+          <h3>PDF Tools</h3>
+          <p>Merge, split, and compress PDFs effortlessly.</p>
+        </div>
+        <div class="category-card">
+          <img src="https://via.placeholder.com/80" alt="Other Tools">
+          <h3>Other Tools</h3>
+          <p>Explore more tools to enhance your productivity.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Tools Section -->
+    <section class="featured-tools">
+      <h2>Featured Tools</h2>
+      <div class="tool-grid">
+        <div class="tool-card">
+          <img src="https://via.placeholder.com/80" alt="Image Compressor">
+          <h3>Image Compressor</h3>
+          <p>Reduce image size without losing quality.</p>
+        </div>
+        <div class="tool-card">
+          <img src="https://via.placeholder.com/80" alt="PDF Merger">
+          <h3>PDF Merger</h3>
+          <p>Combine multiple PDFs into one document.</p>
+        </div>
+        <div class="tool-card">
+          <img src="https://via.placeholder.com/80" alt="Image Converter">
+          <h3>Image Converter</h3>
+          <p>Convert images to different formats.</p>
+        </div>
+        <div class="tool-card">
+          <img src="https://via.placeholder.com/80" alt="PDF Compressor">
+          <h3>PDF Compressor</h3>
+          <p>Reduce PDF file size for easy sharing.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Your Website Name. All rights reserved. | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
